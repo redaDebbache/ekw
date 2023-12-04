@@ -2,6 +2,7 @@ package com.debbache.invoices.model;
 
 import lombok.RequiredArgsConstructor;
 
+import javax.validation.constraints.NotNull;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
@@ -14,7 +15,7 @@ public enum CustomerType {
 
     private final Predicate<Customer> discriminator;
 
-    public static CustomerType getCustomerType(Customer customer){
+    public static CustomerType getCustomerType(@NotNull Customer customer){
         return Stream.of(values())
                 .filter(v -> v.discriminator.test(customer))
                 .findFirst()

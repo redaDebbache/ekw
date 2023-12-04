@@ -2,7 +2,6 @@ package com.debbache.invoices.repository;
 
 
 import com.debbache.invoices.model.*;
-import com.debbache.invoices.repository.RateRepository;
 import com.debbache.invoices.utils.PartnerParticular;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;

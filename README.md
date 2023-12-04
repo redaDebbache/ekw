@@ -37,7 +37,3 @@ La seule contrainte technique est l'utilisation du langage Java dans sa version 
 ## Ce qui est attendu
 Le minimum attendu est un programme fonctionnel qui puisse etre executé et testé.
 
-## Comment soumettre ton travail
-- Créer un nouveau repository public sur un espace à toi (et non un fork de ce repo sur l'espace gitlab EKW)
-- Rendre le projet sur la branche master de ton repository
-- Enfin, nous communiquer par mail le lien de ton repository quand l'exercice est terminé

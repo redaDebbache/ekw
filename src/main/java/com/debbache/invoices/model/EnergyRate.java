@@ -1,5 +1,7 @@
 package com.debbache.invoices.model;
 
 
-public record EnergyRate(CustomerType customerType, EnergyType energyType, double rate) {
+import javax.validation.constraints.NotNull;
+
+public record EnergyRate(@NotNull CustomerType customerType, @NotNull EnergyType energyType, double rate) {
 }
